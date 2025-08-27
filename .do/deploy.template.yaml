@@ -12,9 +12,6 @@ spec:
           tag: 'latest'
           deploy_on_push:
               enabled: true
-      git:
-        branch: develop
-        repo_clone_url: https://github.com/OliverMensahDev/ever-gauzy.git
       envs:
           - key: API_HOST
             scope: RUN_TIME
