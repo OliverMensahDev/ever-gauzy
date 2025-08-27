@@ -282,6 +282,9 @@ Notes:
 
 -   For the most simple deployment scenarios (e.g. for yourself or your small organization), check our [DigitalOcean App Platform configurations](https://github.com/ever-co/ever-gauzy/tree/develop/.do) and corresponding [GitHub Action](https://github.com/ever-co/ever-gauzy/blob/develop/.github/workflows/deploy-do-app-platform-stage.yml).
 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/ever-co/ever-gauzy/tree/develop)
+
+
 #### Virtual Instances / Droplets (via SSH)
 
 -   Another variant to deploy Gauzy is to use DigitalOcean Droplets or any other virtual instance (with Ubuntu OS) and deploy using SCP/SSH, for example, following [GitHub Action](https://github.com/ever-co/ever-gauzy/blob/develop/.github/workflows/deploy-do-droplet-demo.yml)
